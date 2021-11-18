@@ -19,6 +19,9 @@ module.exports = {
     fontFamily: {
       openSans: ["Open Sans", "sans-serif"],
     },
+    boxShadow: {
+      DEFAULT: "0px 5px 15px rgba(245, 114, 7, 0.39)",
+    },
     extend: {},
   },
   variants: {

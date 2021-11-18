@@ -1,12 +1,16 @@
 import React from "react";
 import "./App.css";
-import { Tag } from "./Components";
+import { Card } from "./Components";
 
 function App() {
   return (
     <div className="App">
-      {" "}
-      <Tag text="test" />{" "}
+      <Card
+        author="Will Joseph"
+        header="Test"
+        sampleText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        tags={["Test", "Sparta"]}
+      />
     </div>
   );
 }

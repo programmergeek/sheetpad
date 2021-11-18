@@ -25,7 +25,11 @@ module.exports = {
     boxShadow: {
       DEFAULT: "0px 5px 15px rgba(245, 114, 7, 0.39)",
     },
-    extend: {},
+    extend: {
+      spacing: {
+        card: "21.5rem",
+      },
+    },
   },
   variants: {
     extend: {},

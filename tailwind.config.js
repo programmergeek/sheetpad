@@ -1,4 +1,6 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable no-undef */
+const colours = require("tailwindcss/colors");
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
@@ -11,6 +13,7 @@ module.exports = {
     },
     colors: {
       white: "#fff",
+      gray: colours.gray,
       orange: {
         lightOrange: "#f3bd91",
         darkOrange: "#f57207",

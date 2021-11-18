@@ -10,7 +10,7 @@ interface Props {
 
 export const Card: React.FC<Props> = ({ ...props }: Props) => {
   return (
-    <div className="w-96 max-h-96 shadow p-6 rounded">
+    <div className="mx-2 w-card max-h-96 shadow p-6 rounded">
       <div className="flex">
         {props.tags.map((tag, key) => {
           return (

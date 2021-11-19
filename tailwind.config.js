@@ -23,6 +23,7 @@ module.exports = {
       openSans: ["Open Sans", "sans-serif"],
     },
     boxShadow: {
+      icon: "0px 5px 25px rgba(0, 0, 0, 0.35)",
       DEFAULT: "0px 5px 15px rgba(245, 114, 7, 0.39)",
     },
     extend: {

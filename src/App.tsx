@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Card } from "./Components";
+import { Card, IconButton } from "./Components";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         sampleText="Lorem ipsum, dolor sit amet consectetur adipisicing elit."
         tags={["Test", "Sparta"]}
       />
+      <IconButton />
     </div>
   );
 }

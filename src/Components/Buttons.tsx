@@ -14,5 +14,17 @@ type IconProps = {
  */
 
 export const IconButton: React.FC<IconProps> = ({ ...props }: IconProps) => {
-  return <div></div>;
+  return (
+    <button
+      className="w-10 rounded-full h-10 shadow-icon m-4"
+      onClick={props.onClick}
+    >
+      {/*if image is provided use that else assume svg graphic has been provided */}
+      {props.image ? (
+        <img src={props.image} alt="icon-button" className="w-9 h-9" />
+      ) : (
+        props.svgImage
+      )}
+    </button>
+  );
 };

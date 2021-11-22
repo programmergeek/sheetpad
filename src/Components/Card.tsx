@@ -1,5 +1,5 @@
 import React from "react";
-import { Tag } from ".";
+import { IconButton, Tag } from ".";
 
 interface Props {
   header: string;
@@ -23,6 +23,8 @@ export const Card: React.FC<Props> = ({ ...props }: Props) => {
       <h3 className="font-semibold text-3xl text-left">{props.header}</h3>
       <p className="text-gray-500 text-left text-sm">@{props.author}</p>
       <p className="text-base text-left">{props.sampleText}</p>
+      <IconButton />
+      <IconButton />
     </div>
   );
 };
